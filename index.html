@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section id="container">
+      <h1 id="title" class="head">Trick or Treat</h1>
+      <div id="Introduction">
+       <h3 class="head">Introduction</h3>
+       <ol class="intro">
+        <li>Hello Boys & Girls, Trick or Treat, it's Halloween.Treats are waitng behind these doors to those who are lucky</li>
+        <li>Your mission is to get to the treats without getting tricked</li>
+        <li>If you manage to get all the treats without being tricked, you win!</li>
+        <li>See how many streaks can you have!</li>
+       </ol>
+      </div>
+     <div id="trickbox">
+       <button class="btn" id="btn1" onclick="reveal(this)">
+         <img src="https://www.history.com/.image/t_share/MTY3NDg4OTU3NjQxMTQwMDEz/halloween-gettyimages-172988453.jpg" class="image"/>
+       </button>
+       <button  class="btn" id="btn2" onclick="reveal(this)">
+         <img src="https://www.history.com/.image/t_share/MTY3NDg4OTU3NjQxMTQwMDEz/halloween-gettyimages-172988453.jpg" class="image"/>
+      </button>
+       <button  class="btn" id="btn3" onclick="reveal(this)">
+         <img src="https://www.history.com/.image/t_share/MTY3NDg4OTU3NjQxMTQwMDEz/halloween-gettyimages-172988453.jpg" class="image"/>
+       </button>
+     </div>
+     <div id="playbtn">
+        <button id="play"  class="btn playing" onclick="startGame()" >Start</button>
+        <button id="playAgain" class="btn playing" onclick="playAgain()" >play</button>
+     </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+
